@@ -1,0 +1,56 @@
+.case {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+}
+
+.photo {
+  width: 60%;
+  height: auto;
+}
+
+.photo:hover {
+  border: none;
+}
+
+.text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text p {
+  max-width: 800px;
+  line-height: 50px;
+  word-spacing: 4px;
+  font-size: 1.6;
+}
+
+.links {
+  display: inline-block; /* Makes it behave like a button */
+  text-decoration: none;
+  padding: 10px 20px; /* Adds padding */
+  margin-top: 50px;
+  background-color: pink; /* Background color */
+  color: black; /* Text color */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.links:hover {
+  background-color: darkpink; /* Change color on hover */
+}
+
+@media (max-width: 768px) {
+  .photo {
+    width: 400px;
+    height: 300px;
+  }
+  .text p {
+    max-width: 800px;
+    line-height: 40px;
+    word-spacing: 2px;
+    font-size: 0.6;
+  }
+}

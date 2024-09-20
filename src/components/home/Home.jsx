@@ -52,11 +52,9 @@ function Home() {
                 {" "}
                 A skilled and experienced Information Technology professional
                 with expertise in using HTML, CSS, Bootstrap 5, JavaScript and
-                React js to develop high-quality websites.{" "}
-              </p>
-              <p style={{ fontSize: "18px" }}>
-                Proficient in frontend development technologies, with a proven
-                track record of delivering high-quality projects on time
+                React js to develop high-quality websites. Proficient in
+                frontend development technologies, with a proven track record of
+                delivering high-quality projects on time
               </p>
             </div>
             <div className="about-skills">

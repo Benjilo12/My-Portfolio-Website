@@ -68,18 +68,48 @@
 }
 @media (max-width: 768px) {
   .footer {
-    margin: 50px 70px;
+    margin: 20px 30px; /* Reduce margin for smaller screens */
   }
+
   .footer-top {
-    flex-direction: column;
-    gap: 50px;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align the elements */
+    gap: 20px; /* Adjust gap between elements */
   }
+
+  .footer-top-left p {
+    text-align: center; /* Center the text */
+  }
+
+  .footer-top-right {
+    width: 100%; /* Allow the right section to take full width */
+    justify-content: center; /* Center align the subscription input */
+  }
+
+  .footer-email-input {
+    width: 100%; /* Make the input take full width */
+    padding: 10px 20px; /* Adjust padding */
+    border-radius: 25px; /* Reduce border radius */
+  }
+
+  .footer-email-input input {
+    width: calc(100% - 50px); /* Adjust input width */
+    font-size: 16px; /* Smaller font size */
+  }
+
+  .footer-subscribe {
+    width: 100%; /* Make the button take full width */
+    text-align: center; /* Center text in the button */
+    padding: 13px 0; /* Adjust padding */
+  }
+
   .footer-bottom {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-bottom: 50px;
+    flex-direction: column; /* Stack footer links vertically */
+    align-items: center; /* Center align the footer links */
+    gap: 10px; /* Add gap between links */
   }
-  .footer-bottom p {
-    padding-top: 10px;
+
+  .footer-bottom-left {
+    text-align: center; /* Center the copyright text */
   }
 }
