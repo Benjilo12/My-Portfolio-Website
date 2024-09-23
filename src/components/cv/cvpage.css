@@ -1,0 +1,18 @@
+.cv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cvlink {
+  padding: 25px 45px;
+  border-radius: 50px;
+  font-size: 30px;
+  color: #fff;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  margin-top: 60px;
+  text-decoration: none;
+  cursor: pointer;
+}

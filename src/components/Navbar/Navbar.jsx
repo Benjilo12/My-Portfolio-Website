@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
 import { useRef } from "react";
@@ -31,24 +31,28 @@ function Navbar() {
       <ul ref={menuRef} className="nav-menu">
         <img
           src={menu_close}
-          alt=""
+          alt="close menu"
           className="nav-mob-close"
           onClick={closeMenu}
         />
         <li>
-          <Link className="link" to="/">
+          <NavLink className="link" exact to="/" activeClassName="active-link">
             Home
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link className="link" to="/myproject">
+          <NavLink
+            className="link"
+            to="/myproject"
+            activeClassName="active-link"
+          >
             Projects
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link className="link" to="/cvpage">
+          <NavLink className="link" to="/cvpage" activeClassName="active-link">
             Cv
-          </Link>
+          </NavLink>
         </li>
       </ul>
       <a
@@ -57,9 +61,6 @@ function Navbar() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span
-        // style={{ marginRight: "15px", fontSize: "20px", marginTop: "5px" }}
-        ></span>
         My GitHub Profile
       </a>
     </div>
