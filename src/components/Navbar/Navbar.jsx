@@ -25,7 +25,7 @@ function Navbar() {
         onClick={openMenu}
       />
 
-      <h1 className="logo">
+      <h1 className="logo" style={{ cursor: "pointer" }}>
         Benjis <span>Portfolio</span>
       </h1>
       <ul ref={menuRef} className="nav-menu">
