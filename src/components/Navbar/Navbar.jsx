@@ -1,24 +1,45 @@
 import { NavLink } from "react-router-dom";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import "./Navbar.css";
 
 function Navbar() {
   const menuRef = useRef();
+  const menuButtonRef = useRef();
 
   const openMenu = () => {
     menuRef.current.style.right = "0";
   };
+
   const closeMenu = () => {
     menuRef.current.style.right = "-350px";
   };
 
   const githubProfileUrl = "https://github.com/Benjilo12";
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target) &&
+        !menuButtonRef.current.contains(event.target)
+      ) {
+        closeMenu();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <div className="navbar">
       <img
+        ref={menuButtonRef}
         src={menu_open}
         alt="menu"
         className="nav-mob-open"

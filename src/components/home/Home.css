@@ -334,7 +334,7 @@ image:hover {
     margin: 50px;
     align-items: start;
   }
-  .about-title {
+  .about-title h1 {
     font-size: 50px;
     padding: 0;
   }
@@ -350,7 +350,7 @@ image:hover {
     line-height: 32px;
   }
   .about-skill {
-    gap: 20px;
+    gap: 40px;
     align-items: center;
   }
   .about-skill p {
@@ -378,32 +378,41 @@ image:hover {
 @media (max-width: 768px) {
   .services {
     align-items: start;
-    gap: 70px;
-    margin: 20px 70px;
+    column-gap: 70px;
+    margin: 40px 90px;
+    z-index: 2;
   }
+
   .services-title h1 {
     padding: 0;
     font-size: 50px;
   }
+
   .services-format {
     gap: 20px;
     padding: 32px;
+    width: 100%; /* Make the service boxes take the full width */
   }
+
   .services-format h2 {
     font-size: 28px;
   }
+
   .services-format p {
     font-size: 15px;
     line-height: 30px;
-    max-width: 300px;
+    width: 100%; /* Remove max-width so text can span the container */
   }
+
   .services-container {
-    grid-template-columns: 1fr 1fr;
+    display: block; /* Stack the services vertically */
+    width: 100%; /* Ensure the container spans full width */
     gap: 30px;
   }
+
   .services-readmore p {
     font-size: 12px;
-    width: 40px;
+    width: 80px;
   }
 }
 
@@ -412,7 +421,7 @@ mywork-container img:original was 100% height and width*/
 @media (max-width: 768px) {
   .mywork {
     gap: 50px;
-    margin: 70px 70px;
+    margin: 70px 30px;
     align-items: start;
   }
   .mywork-title h1 {
