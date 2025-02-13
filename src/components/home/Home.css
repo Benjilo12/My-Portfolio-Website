@@ -390,7 +390,8 @@ image:hover {
 
   .services-format {
     gap: 20px;
-    padding: 32px;
+    margin-bottom: 25px;
+    padding: auto;
     width: 100%; /* Make the service boxes take the full width */
   }
 

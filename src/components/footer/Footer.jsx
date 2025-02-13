@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer-top-left">
           <p>
             {" "}
-            I am a Frontend dev based in Ghana with 2years of experience in
+            I am a Frontend dev based in Ghana with 3years of experience in
             Frontend development
           </p>
         </div>

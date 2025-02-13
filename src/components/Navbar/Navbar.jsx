@@ -1,7 +1,8 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
 import { useRef, useEffect } from "react";
+import { motion } from "framer-motion";
 import "./Navbar.css";
 
 function Navbar() {
@@ -46,9 +47,12 @@ function Navbar() {
         onClick={openMenu}
       />
 
-      <h1 className="logo" style={{ cursor: "pointer" }}>
-        Benjis <span>Portfolio</span>
-      </h1>
+      <Link to="/" style={{ textDecoration: "none" }}>
+        <h1 className="logo" style={{ cursor: "pointer" }}>
+          Benjis <span>Portfolio</span>
+        </h1>
+      </Link>
+
       <ul ref={menuRef} className="nav-menu">
         <img
           src={menu_close}
@@ -57,24 +61,48 @@ function Navbar() {
           onClick={closeMenu}
         />
         <li>
-          <NavLink className="link" exact to="/" activeClassName="active-link">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "link active-link" : "link"
+            }
+            to="/"
+          >
             Home
           </NavLink>
         </li>
         <li>
           <NavLink
-            className="link"
+            className={({ isActive }) =>
+              isActive ? "link active-link" : "link"
+            }
             to="/myproject"
-            activeClassName="active-link"
           >
             Projects
           </NavLink>
         </li>
         <li>
-          <NavLink className="link" to="/cvpage" activeClassName="active-link">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "link active-link" : "link"
+            }
+            to="/cvpage"
+          >
             Cv
           </NavLink>
         </li>
+
+        <il>
+          {" "}
+          <motion.a
+            className="nav-connect-btn"
+            href={githubProfileUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            whileTap={{ scale: 1.2 }}
+          >
+            My GitHub Profile
+          </motion.a>
+        </il>
       </ul>
       <a
         className="nav-connect"

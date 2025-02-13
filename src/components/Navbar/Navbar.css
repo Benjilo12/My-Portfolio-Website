@@ -29,8 +29,19 @@
   cursor: pointer;
 }
 
+.nav-connect-btn {
+  padding: 15px 40px;
+  border-radius: 50px;
+  background: #8e3e63;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  display: none;
+}
+
 .link {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -39,7 +50,12 @@
 }
 
 .active-link {
-  color: pink;
+  color: rgb(
+    204,
+    21,
+    210
+  ) !important; /* Added !important to ensure it overrides other styles */
+  font-weight: bold; /* Optional: makes the active link bold */
 }
 
 .nav-connect:hover {
@@ -53,19 +69,10 @@
   cursor: pointer;
 }
 
-.link {
-  text-decoration: none;
-  color: white;
-}
-
-.anchor-link.active {
-  color: #8e3e63; /* Change to your desired active color */
-  font-weight: bold;
-}
-
 .nav-mob-close {
   display: none;
 }
+
 .nav-mob-open {
   display: none;
 }
@@ -74,14 +81,23 @@
   .navbar {
     margin: 20px 50px;
   }
+
   .nav-connect {
     display: none;
   }
+
+  .nav-connect-btn {
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
   .nav-mob-open {
     display: block;
     position: fixed;
     right: 30px;
   }
+
   .nav-mob-close {
     display: block;
     position: relative;
@@ -89,6 +105,7 @@
     left: 290px;
     width: 30px;
   }
+
   .nav-menu {
     position: fixed;
     flex-direction: column;
@@ -99,9 +116,10 @@
     width: 350px;
     height: 100%;
     z-index: 2;
-    transform: right 0.5s;
     right: -350px;
+    transition: right 0.5s;
   }
+
   .nav-menu li {
     font-size: 30px;
     padding-left: 100px;

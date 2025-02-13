@@ -8,10 +8,7 @@ function ProjectCard({ item }) {
         <img src={item.w_img} alt="project-image" className="project-image" />
         <div className="project-meta">
           <h3 className="project-title">{item.w_name}</h3>
-          <p className="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis assumenda iste maiores ipsum omnis facili
-          </p>
+          <p className="project-description">{item.shortDesc}</p>
         </div>
       </Link>
     </div>

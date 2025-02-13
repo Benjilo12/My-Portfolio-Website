@@ -4,22 +4,25 @@ import project2 from "../components/images/project2.png";
 import project4 from "../components/images/project4.png";
 import project5 from "../components/images/project5.png";
 import project6 from "../components/images/project6.png";
-import project7 from "../components/images/project7.png";
+import project15 from "../components/images/project15.png";
 import project8 from "../components/images/project8.png";
 import project9 from "../components/images/project9.png";
 import project11 from "../components/images/project11.png";
 import project12 from "../components/images/project12.png";
 import project13 from "../components/images/project13.png";
 import project14 from "../components/images/project14.png";
+import project16 from "../components/images/project16.png";
+import project20 from "../components/images/project20.png";
+import project21 from "../components/images/project21.png";
 
 const myWorksData = [
   {
     id: 1,
-    w_name: "Bible Baptist Church Website",
+    w_name: "Bible Baptist Church wordpress Website",
     w_img: project1,
     w_link: "https://biblebaptistchurchghana.org", // Add the link here
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Developed and maintained a fully responsive website for Bible Baptist Church Madina, utilizing WordPress with plugins such as Elementor for page building....",
     description:
       '"Developed and maintained a fully responsive website for Bible Baptist Church Madina, utilizing WordPress with plugins such as Elementor for page building, Modula for image galleries, wp Forms for form validation Shield Security for site protection, and Yoast for SEO optimization, improving both user experience and online visibility."',
   },
@@ -29,27 +32,27 @@ const myWorksData = [
     w_img: project2,
     w_link: "https://gracebaptistmissionghana.org", // Add the link here
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Developed and maintained a fully responsive website for Grace Baptist Mission, utilizing WordPress with plugins such as Elementor for page building, Modula for image galleries...",
     description:
       "Developed and maintained a fully responsive website for Grace Baptist Mission, utilizing WordPress with plugins such as Elementor for page building, Modula for image galleries, Shield Security for site protection, and Yoast for SEO optimization, improving both user experience and online visibility.",
   },
   {
     id: 3,
     w_name: "Wordpress Consultancy website",
-    w_img: project7,
-    w_link: "https://newinsightgh.com", // Add the link here
+    w_img: project15,
+    w_link: "https://acornconsultinggh.com", // Add the link here
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Developed and maintained a fully responsive website for acorn consultancy firm, utilizing WordPress with plugins such as Elementor for page building....!",
     description:
-      "Developed and maintained a fully responsive website for Newinsightgh consultancy firm, utilizing WordPress with plugins such as Elementor for page building, Modula for image galleries, Shield Security for site protection, and Yoast for SEO optimization, improving both user experience and online visibility.",
+      "Developed and maintained a fully responsive website for acorn consultancy firm, utilizing WordPress with plugins such as Elementor for page building, Modula for image galleries, Shield Security for site protection, and Yoast for SEO optimization, improving both user experience and online visibility.",
   },
   {
     id: 4,
     w_name: "React Pizza Delivery App",
     w_img: project4,
-    w_link: "https://66f686c2cde35b1d1dbbc4f4--sunny-flan-d938e0.netlify.app", // Add the link here
+    w_link: "https://velvety-faun-840cb3.netlify.app", // Add the link here
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "LDeveloped a React pizza ordering app using React Hooks for efficient state and effect management, React Router for seamless navigation, Tailwind CSS for responsive styling....",
     description:
       "Developed a React pizza ordering app using React Hooks for efficient state and effect management, React Router for seamless navigation, Tailwind CSS for responsive styling, and Redux Toolkit for centralized state management, enhancing both user experience and functionality. Also usec react query for fetching data",
   },
@@ -57,9 +60,9 @@ const myWorksData = [
     id: 5,
     w_name: "React Quiz App",
     w_img: project6,
-    w_link: "https://gracebaptistmissionghana.org", // Add the link here
+    w_link: "https://github.com/Benjilo12/React-quiz-App", // Add the link here
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Developed a React quiz app utilizing React Hooks and useReducer for state management, and integrated quiz...",
     description:
       "Developed a React quiz app utilizing React Hooks and useReducer for state management, and integrated quiz questions from a dummy API, providing an interactive and dynamic user experience.",
   },
@@ -67,10 +70,9 @@ const myWorksData = [
     id: 6,
     w_name: "React Movie App",
     w_img: project5,
-    w_link:
-      "https://66f685da3f3aa4096ab707f6--eclectic-bombolone-bb0036.netlify.app", // Add the link here
+    w_link: "https://github.com/Benjilo12/React-Movie-App", // Add the link here
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Developed a React movie ratings app by fetching data from The Movie Database (TMDB) and utilizing...",
     description:
       "Developed a React movie ratings app by fetching data from The Movie Database (TMDB) and utilizing React Hooks to manage and update state, creating a dynamic and interactive user experience.",
   },
@@ -81,7 +83,7 @@ const myWorksData = [
     w_link:
       "https://66f68f5090b09628dadcee3b--prismatic-malasada-c8cf8d.netlify.app", // Add the link here
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Developed an agency website using MUI 5 for responsive UI components and styling,....",
     description:
       "Developed an agency website using MUI 5 for responsive UI components and styling, and implemented Formik for efficient form validation, ensuring a sleek and functional user interface.",
   },
@@ -92,7 +94,7 @@ const myWorksData = [
     w_link:
       "https://66f680aecde35b148fbbc7cc--cosmic-kashata-e2547a.netlify.app", // Add the link here
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Developed a course website using MUI 5 for responsive design and styling, integrated Formik....",
     description:
       "Developed a course website using MUI 5 for responsive design and styling, integrated Formik for form validation, and utilized React Router DOM for seamless navigation, enhancing user experience and accessibility.",
   },
@@ -100,19 +102,19 @@ const myWorksData = [
     id: 9,
     w_name: "Mui-dashboard with firebase",
     w_img: project11,
-    w_link: "https://gracebaptistmissionghana.org", // Add the link here
+    w_link: "https://benevolent-frangollo-7fdeca.netlify.app", // Add the link here
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Developed a feature-rich React dashboard utilizing MUI 5 and MUI theme for responsive styling, React Router DOM for navigation, and Formik for form validation.....",
     description:
-      "Developed a feature-rich React dashboard utilizing MUI 5 and MUI theme for responsive styling, React Router DOM for navigation, and Formik for form validation. Integrated React Pro Sidebar for navigation, React Toastify and SweetAlert for user notifications, MUI Data Grid for displaying data in tables, and Nivo Charts for visual data representation. Leveraged Firebase for Google authentication and database storage, ensuring a secure and dynamic user experience.",
+      "Developed a feature-rich React dashboard utilizing MUI 5 and MUI theme for responsive styling, React Router DOM for navigation, and Formik for form validation. Integrated React Pro Sidebar for navigation, React Toastify and SweetAlert for user notifications, MUI Data Grid for displaying data in tables, and Nivo Charts for visual data representation. Leveraged Firebase for Google authentication and database storage, ensuring a secure and dynamic user experience.  NB:This project uses Firebase's free tier, which does not support hosting. To view the website, please download the folder from GitHub and run it locally following the instructions in the README file.",
   },
   {
     id: 10,
     w_name: "React Far Away App",
     w_img: project12,
-    w_link: "https://66f7c89592c9bea95c088a40--cute-liger-9846c5.netlify.app", // Add the link here
+    w_link: "https://chimerical-ganache-4c7996.netlify.app", // Add the link here
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Developed this App using react hooks, this App allows you to add....",
     description:
       "Developed this App using react hooks, this App allows you to add,sort and delete items",
   },
@@ -123,7 +125,7 @@ const myWorksData = [
     w_link:
       "https://66f7cdd2778c4da34ceb3ebb--comfy-basbousa-111ba1.netlify.app", // Add the link here
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Developed this App using react hooks and Firebase for database storage....",
     description:
       "Developed this App using react hooks and Firebase for database storage, this App allows you to add,sort and delete your todolist",
   },
@@ -131,12 +133,38 @@ const myWorksData = [
     id: 13,
     w_name: "React Atomic Blog",
     w_img: project14,
-    w_link:
-      "https://66f7d5d092c9beb5d0088a5e--incredible-medovik-8dd3a4.netlify.app", // Add the link here
+    w_link: "https://frolicking-klepon-5844b9.netlify.app", // Add the link here
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Developed this App using react hooks and React-Router-Dom for navigation.....",
     description:
       "Developed this App using react hooks and React-Router-Dom for navigation, this App allows you to add and archive your blog post.It also give you the option to switch to light or dark mode.",
+  },
+  {
+    id: 14,
+    w_name: "React E-commerce website ",
+    w_img: project20,
+    w_link: "https://sparkly-cucurucho-1a5ceb.netlify.app/home", // Add the link here
+    shortDesc:
+      "Developed this App using react hooks and React-Router-Dom for navigation.....",
+    description:
+      " Technologies Used: React.js, Bootstrap, Redux Toolkit, Firebase, CSSBuilt a fully functional e-commerce platform using React and Bootstrap, with state management via Redux Toolkit and Firebase for authentication and data storage.Utilized React hooks for state management and reusable components for code efficiency and Integrated product catalog with search and filtering functionality. Leveraged Bootstrap to create a user-friendly interface that works seamlessly across devices..,",
+  },
+  {
+    id: 15,
+    w_name: "Alive fm online news blog website ",
+    w_img: project16,
+    w_link: "https://alivefmonline.org/", // Add the link here
+    shortDesc: "Developed this website using wordpress",
+    description: " Technologies Used:Developed this website using wordpress ",
+  },
+  {
+    id: 16,
+    w_name: "React cabin booking dashboard ",
+    w_img: project21,
+    w_link: "https://quiet-kleicha-c5923f.netlify.app/login", // Add the link here
+    shortDesc: "Developed this website using wordpress",
+    description:
+      "	Developed a cabin booking dashboard using React.js to manage cabin reservations, bookings, and user data. Implemented CRUD (Create, Read, Update, Delete) operations using Supabase as the backend database. Utilized React Query for efficient data fetching, caching, and synchronization, improving performance and user experience. Designed an intuitive and responsive UI with features like filtering, sorting, and pagination for easy data management .Implemented authentication with supabase where the user can create a user, change password and also login with email.",
   },
 ];
 

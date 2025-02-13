@@ -30,7 +30,7 @@ function Home() {
               {typeEffect}
               <Cursor />,
             </span>{" "}
-            a Frontend Developer based in Ghana with 2 years of experience in
+            a Frontend Developer based in Ghana with 3 years of experience in
             Frontend development.
           </h2>
           <div className="hero-action">
@@ -38,7 +38,7 @@ function Home() {
               <motion.a
                 style={{ textDecoration: "none", color: "white" }}
                 className="anchor-link"
-                href=""
+                href="https://www.linkedin.com/in/benjamin-dartey-2a922918a/"
                 whileTap={{ scale: 1.2 }}
               >
                 Connect with me
@@ -59,8 +59,9 @@ function Home() {
                 <p style={{ fontSize: "18px" }}>
                   I am a skilled and experienced Information Technology
                   professional with expertise in using HTML, CSS, Bootstrap 5,
-                  JavaScript, and React.js to develop high-quality websites. I
-                  have a proven track record of delivering projects on time.
+                  JavaScript, React.js and Next.js to develop high-quality
+                  websites. I have a proven track record of delivering projects
+                  on time.
                 </p>
               </div>
               <div className="about-skills">
@@ -79,6 +80,10 @@ function Home() {
                 <div className="about-skill">
                   <p>WordPress</p>
                   <hr style={{ width: "70%" }} />
+                </div>
+                <div className="about-skill">
+                  <p>Next.js</p>
+                  <hr style={{ width: "50%" }} />
                 </div>
               </div>
             </div>

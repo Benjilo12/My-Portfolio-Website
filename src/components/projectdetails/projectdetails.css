@@ -23,7 +23,7 @@
 
 .text p {
   max-width: 800px;
-  line-height: 50px;
+  line-height: 40px;
   word-spacing: 4px;
   font-size: 1.6;
 }
@@ -45,11 +45,13 @@
 
 @media (max-width: 768px) {
   .photo {
-    width: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    width: 320px;
     height: 300px;
   }
   .text p {
-    max-width: 800px;
+    max-width: 100%;
     line-height: 40px;
     word-spacing: 2px;
     font-size: 0.6;

@@ -47,7 +47,7 @@ function ContactUs() {
             </div>
             <div className="contact-detail">
               <FontAwesomeIcon className="icon" icon={faMapMarkerAlt} />{" "}
-              <p>Pokuase Amasaman</p>
+              <p> Amasaman - Accra</p>
             </div>
             <div className="contact-detail">
               <FontAwesomeIcon className="icon" icon={faPhone} />{" "}
