@@ -115,6 +115,7 @@
   gap: 50px;
   align-items: center;
   transition: 0.3s;
+  margin-bottom: 15px;
 }
 
 .about-skill p {

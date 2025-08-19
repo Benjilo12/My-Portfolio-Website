@@ -47,14 +47,24 @@ function Home() {
           </div>
         </div>
         <div className="about">
-          <div className="about-title">
+          <div data-aos="fade-up" className="about-title">
             <h1>About Me</h1>
           </div>
           <div className="about-sections">
-            <div className="about-left">
+            <div
+              className="about-left"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
               <img src={benjilo} alt="Benjamin Dartey" />
             </div>
-            <div className="about-right">
+            <div
+              className="about-right"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
               <div className="about-para">
                 <p style={{ fontSize: "18px" }}>
                   I am a skilled and experienced Information Technology
@@ -64,7 +74,7 @@ function Home() {
                   on time.
                 </p>
               </div>
-              <div className="about-skills">
+              <div>
                 <div className="about-skill">
                   <p>HTML & CSS</p>
                   <hr style={{ width: "90%" }} />
@@ -89,17 +99,32 @@ function Home() {
             </div>
           </div>
           <div className="about-achievements">
-            <div className="about-achievement">
+            <div
+              data-aos="flip-left"
+              data-aos-delay="10"
+              data-aos-duration="1000"
+              className="about-achievement"
+            >
               <h1>2+</h1>
               <p>YEARS OF EXPERIENCE</p>
             </div>
             <hr />
-            <div className="about-achievement">
+            <div
+              data-aos="flip-left"
+              data-aos-delay="10"
+              data-aos-duration="1000"
+              className="about-achievement"
+            >
               <h1>20+</h1>
               <p>PROJECTS COMPLETED</p>
             </div>
             <hr />
-            <div className="about-achievement">
+            <div
+              data-aos="flip-left"
+              data-aos-delay="10"
+              data-aos-duration="1000"
+              className="about-achievement"
+            >
               <h1>2+</h1>
               <p>CLIENTS</p>
             </div>
@@ -108,13 +133,17 @@ function Home() {
 
         {/* Services */}
         <div className="services">
-          <div className="services-title">
+          <div data-aos="fade-up" className="services-title">
             <h1>My Services</h1>
           </div>
           <div className="services-container">
             {Services_Data.map((service, index) => {
               return (
-                <div key={index} className="services-format">
+                <div
+                  data-aos="flip-left"
+                  key={index}
+                  className="services-format"
+                >
                   <h3>{service.s_no}</h3>
                   <h2>{service.s_name}</h2>
                   <p>{service.s_desc}</p>
@@ -131,7 +160,7 @@ function Home() {
 
         {/* My Projects */}
         <div id="myprojects" className="mywork">
-          <div className="mywork-title">
+          <div data-aos="fade-down" className="mywork-title">
             <h1>My Projects</h1>
           </div>
           <Swiper
@@ -157,6 +186,7 @@ function Home() {
             }}
             modules={[Pagination, Navigation]}
             className="mySwiper"
+            data-aos="fade-left"
           >
             {myWorksData.map((work, index) => (
               <SwiperSlide key={index}>

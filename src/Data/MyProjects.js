@@ -14,6 +14,8 @@ import project14 from "../components/images/project14.png";
 import project16 from "../components/images/project16.png";
 import project20 from "../components/images/project20.png";
 import project21 from "../components/images/project21.png";
+import project22 from "../components/images/project22.png";
+import project23 from "../components/images/project23.png";
 
 const myWorksData = [
   {
@@ -143,7 +145,7 @@ const myWorksData = [
     id: 14,
     w_name: "React E-commerce website ",
     w_img: project20,
-    w_link: "https://sparkly-cucurucho-1a5ceb.netlify.app/home", // Add the link here
+    w_link: "https://sparkly-cucurucho-1a5ceb.netlify.app", // Add the link here
     shortDesc:
       "Developed this App using react hooks and React-Router-Dom for navigation.....",
     description:
@@ -161,10 +163,30 @@ const myWorksData = [
     id: 16,
     w_name: "React cabin booking dashboard ",
     w_img: project21,
-    w_link: "https://quiet-kleicha-c5923f.netlify.app/login", // Add the link here
-    shortDesc: "Developed this website using wordpress",
+    w_link: "https://eloquent-daffodil-32aef5.netlify.app/login", // Add the link here
+    shortDesc:
+      "Developed a cabin booking dashboard using React.js to manage cabin reservations, bookings, and user data.",
     description:
       "	Developed a cabin booking dashboard using React.js to manage cabin reservations, bookings, and user data. Implemented CRUD (Create, Read, Update, Delete) operations using Supabase as the backend database. Utilized React Query for efficient data fetching, caching, and synchronization, improving performance and user experience. Designed an intuitive and responsive UI with features like filtering, sorting, and pagination for easy data management .Implemented authentication with supabase where the user can create a user, change password and also login with email.",
+  },
+  {
+    id: 17,
+    w_name: "Next.js Booking Reservation website",
+    w_img: project22,
+    w_link: "https://github.com/Benjilo12/Next.js-Wild-Oasis-Website", // Add the link here
+    shortDesc:
+      "Developed a cabin booking reservation website using Next.js to manage booking reservations.",
+    description:
+      "	Technologies Used: Next.js, Tailwind css, Next Auth, Supabase, Built a booking website using Next.js with Supabase as the backend.Implemented full CRUD operations for managing bookings and user data.Used Tailwind CSS for styling to create a clean and responsive design. Integrated authentication with Next auth and real-time database updates with supabase. If you want to login, the user email address is Testing123@gmail.com whiles password is Testing123   ",
+  },
+  {
+    id: 18,
+    w_name: "React-blog website",
+    w_img: project23,
+    w_link: "https://superlative-biscotti-69748f.netlify.app", // Add the link here
+    shortDesc: "React Blog App (Next.js & Supabase).",
+    description:
+      "Developed a blog platform with REST API-based data fetching from Supabase. Implemented pagination with React Query to display 9 blogs per page. Enabled image storage using Supabase Storage and optimized image rendering.",
   },
 ];
 

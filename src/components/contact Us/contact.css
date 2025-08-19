@@ -79,7 +79,7 @@
   font-size: 20px;
 }
 
-input ::placeholder {
+input::placeholder {
   padding-left: 30px;
   font-style: italic;
 }

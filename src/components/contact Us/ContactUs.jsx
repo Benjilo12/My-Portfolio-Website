@@ -34,11 +34,11 @@ function ContactUs() {
         <h1>Get In Touch</h1>
       </div>
       <div className="contact-section">
-        <div className="contact-left">
-          <h1>Let's talk</h1>
+        <div data-aos="fade-right" className="contact-left">
+          <h1>Let&apos;s talk</h1>
           <p>
-            I'm currently available to take new projects, so feel to send me a
-            message
+            I&apos;m currently available to take new projects, so feel to send
+            me a message
           </p>
           <div className="contact-details">
             <div className="contact-detail">
@@ -55,7 +55,11 @@ function ContactUs() {
             </div>
           </div>
         </div>
-        <form onSubmit={onSubmit} className="contact-right">
+        <form
+          data-aos="fade-left"
+          onSubmit={onSubmit}
+          className="contact-right"
+        >
           <label htmlFor="">Your Name</label>
           <input type="text" placeholder="Enter your name" name="name" id="" />
           <label htmlFor="">Your Email</label>
