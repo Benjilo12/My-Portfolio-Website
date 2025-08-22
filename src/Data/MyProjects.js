@@ -1,21 +1,20 @@
 import project1 from "../components/images/project1.png";
-import project2 from "../components/images/project2.png";
+import project26 from "../components/images/project26.png";
 // import project3 from "../components/images/project3.jpg";
 import project4 from "../components/images/project4.png";
 import project5 from "../components/images/project5.png";
 import project6 from "../components/images/project6.png";
 import project15 from "../components/images/project15.png";
 import project8 from "../components/images/project8.png";
-import project9 from "../components/images/project9.png";
+import project27 from "../components/images/project27.png";
 import project11 from "../components/images/project11.png";
-import project12 from "../components/images/project12.png";
+import project24 from "../components/images/project24.png";
 import project13 from "../components/images/project13.png";
 import project14 from "../components/images/project14.png";
 import project16 from "../components/images/project16.png";
 import project20 from "../components/images/project20.png";
 import project21 from "../components/images/project21.png";
 import project22 from "../components/images/project22.png";
-import project23 from "../components/images/project23.png";
 
 const myWorksData = [
   {
@@ -30,13 +29,13 @@ const myWorksData = [
   },
   {
     id: 2,
-    w_name: "Grace Baptist Mission website",
-    w_img: project2,
-    w_link: "https://gracebaptistmissionghana.org", // Add the link here
+    w_name: "Agency website for PhidumTech",
+    w_img: project26,
+    w_link: "https://phidumtech.com/", // Add the link here
     shortDesc:
-      "Developed and maintained a fully responsive website for Grace Baptist Mission, utilizing WordPress with plugins such as Elementor for page building, Modula for image galleries...",
+      "Developed and maintained a fully responsive website for PhidumTech, utilizing WordPress with plugins such as Elementor for page building, Modula for image galleries...",
     description:
-      "Developed and maintained a fully responsive website for Grace Baptist Mission, utilizing WordPress with plugins such as Elementor for page building, Modula for image galleries, Shield Security for site protection, and Yoast for SEO optimization, improving both user experience and online visibility.",
+      "Developed and maintained a fully responsive website for PhidumTech, utilizing WordPress with plugins such as Elementor for page building, Modula for image galleries, Shield Security for site protection, and Yoast for SEO optimization, improving both user experience and online visibility.",
   },
   {
     id: 3,
@@ -91,14 +90,13 @@ const myWorksData = [
   },
   {
     id: 8,
-    w_name: "Mui Course website",
-    w_img: project9,
-    w_link:
-      "https://66f680aecde35b148fbbc7cc--cosmic-kashata-e2547a.netlify.app", // Add the link here
+    w_name: "TopBlog Website",
+    w_img: project27,
+    w_link: "https://topblog-website.onrender.com", // Add the link here
     shortDesc:
-      "Developed a course website using MUI 5 for responsive design and styling, integrated Formik....",
+      "A blogging platform built with the MERN stack where users can read posts and share their thoughts through comments.",
     description:
-      "Developed a course website using MUI 5 for responsive design and styling, integrated Formik for form validation, and utilized React Router DOM for seamless navigation, enhancing user experience and accessibility.",
+      "TopBlog is a full-stack blogging website developed using the MERN stack (MongoDB, Express.js, React, and Node.js). The platform allows users to browse and read blog posts, while also enabling them to add comments to share their thoughts and interact with content. The frontend is built with React for a responsive and dynamic user experience, the backend is powered by Express.js and Node.js for handling requests, and MongoDB is used for efficient storage of blog posts and user comments.",
   },
   {
     id: 9,
@@ -112,13 +110,13 @@ const myWorksData = [
   },
   {
     id: 10,
-    w_name: "React Far Away App",
-    w_img: project12,
-    w_link: "https://chimerical-ganache-4c7996.netlify.app", // Add the link here
+    w_name: "Noteflow - MERN Stack App",
+    w_img: project24,
+    w_link: "https://noteflow-app-a4ll.onrender.com", // Add the link here
     shortDesc:
-      "Developed this App using react hooks, this App allows you to add....",
+      "A full-stack note-taking app built with the MERN stack, featuring create, edit, delete, and organize notes functionality.",
     description:
-      "Developed this App using react hooks, this App allows you to add,sort and delete items",
+      "Noteflow is a MERN stack note-taking application developed using MongoDB, Express.js, React, and Node.js. The app allows users to create, edit, delete, and manage notes seamlessly. It uses React hooks for state management on the frontend, Node.js and Express.js for the backend API, and MongoDB for database storage. The UI is clean, responsive, and designed to provide a smooth user experience for organizing notes efficiently.",
   },
   {
     id: 11,
@@ -178,15 +176,6 @@ const myWorksData = [
       "Developed a cabin booking reservation website using Next.js to manage booking reservations.",
     description:
       "	Technologies Used: Next.js, Tailwind css, Next Auth, Supabase, Built a booking website using Next.js with Supabase as the backend.Implemented full CRUD operations for managing bookings and user data.Used Tailwind CSS for styling to create a clean and responsive design. Integrated authentication with Next auth and real-time database updates with supabase. If you want to login, the user email address is Testing123@gmail.com whiles password is Testing123   ",
-  },
-  {
-    id: 18,
-    w_name: "React-blog website",
-    w_img: project23,
-    w_link: "https://superlative-biscotti-69748f.netlify.app", // Add the link here
-    shortDesc: "React Blog App (Next.js & Supabase).",
-    description:
-      "Developed a blog platform with REST API-based data fetching from Supabase. Implemented pagination with React Query to display 9 blogs per page. Enabled image storage using Supabase Storage and optimized image rendering.",
   },
 ];
 

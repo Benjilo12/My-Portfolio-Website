@@ -3,6 +3,7 @@ import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
 import { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
+import StackIcon from "tech-stack-icons";
 import "./Navbar.css";
 
 function Navbar() {
@@ -110,6 +111,10 @@ function Navbar() {
         target="_blank"
         rel="noopener noreferrer"
       >
+        <StackIcon
+          style={{ width: 20, height: 20, marginRight: 5 }}
+          name="github"
+        />
         My GitHub Profile
       </a>
     </div>

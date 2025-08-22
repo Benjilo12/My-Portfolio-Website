@@ -1,7 +1,8 @@
 import myWorksData from "../../Data/MyProjects";
 import { useParams } from "react-router-dom";
-import Commonsection from "../../components/commonsection/Commonsection";
+
 import "./projectdetails.css";
+import Commonsection from "../commonsection/commonsection";
 
 function ProjectDetails() {
   const { id } = useParams();

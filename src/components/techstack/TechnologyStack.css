@@ -1,0 +1,210 @@
+/* TechnologyStack.css */
+
+.tech-stack {
+  padding: 4rem 0;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.tech-stack .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.tech-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.tech-header h2 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.tech-header p {
+  font-size: 1.1rem;
+  color: #cdd3da;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Marquee styles */
+.marquee-container {
+  overflow: hidden;
+  position: relative;
+  margin: 2rem 0;
+  display: none; /* Hidden on mobile */
+}
+
+@media (min-width: 768px) {
+  .marquee-container {
+    display: block;
+  }
+}
+
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 30s linear infinite;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1.5rem;
+  padding: 1.5rem;
+  background: rgb(34, 30, 30);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  min-width: 120px;
+}
+
+.tech-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tech-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.tech-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #d6dce3;
+  text-align: center;
+}
+
+/* Grid layout for mobile */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 640px) {
+  .tech-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .tech-grid {
+    display: none; /* Hidden on larger screens */
+  }
+}
+
+.tech-grid .tech-item {
+  margin: 0;
+  padding: 1rem;
+}
+
+.tech-grid .tech-icon {
+  font-size: 2rem;
+  height: 50px;
+}
+
+/* Devicon styling - using classes from devicon.dev */
+.devicon-react-plain {
+  color: #61dafb;
+}
+
+.devicon-javascript-plain {
+  color: #f7df1e;
+}
+
+.devicon-html5-plain {
+  color: #e34f26;
+}
+
+.devicon-css3-plain {
+  color: #1572b6;
+}
+
+.devicon-nodejs-plain {
+  color: #339933;
+}
+
+.devicon-express-original {
+  color: #000000;
+}
+
+.devicon-mongodb-plain {
+  color: #47a248;
+}
+
+.devicon-mysql-plain {
+  color: #4479a1;
+}
+
+.devicon-python-plain {
+  color: #3776ab;
+}
+
+.devicon-git-plain {
+  color: #f05032;
+}
+
+.devicon-github-plain {
+  color: #181717;
+}
+
+.devicon-firebase-plain {
+  color: #ffca28;
+}
+
+.devicon-bootstrap-plain {
+  color: #7952b3;
+}
+
+.devicon-tailwindcss-plain {
+  color: #06b6d4;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .tech-stack {
+    background-color: #0f172a;
+  }
+
+  .tech-header h2 {
+    color: #f1f5f9;
+  }
+
+  .tech-header p {
+    color: #94a3b8;
+  }
+
+  .tech-item {
+    background: #1e293b;
+  }
+
+  .tech-name {
+    color: #cbd5e1;
+  }
+}

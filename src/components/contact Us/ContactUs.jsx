@@ -30,7 +30,12 @@ function ContactUs() {
   };
   return (
     <div id="contact" className="contact">
-      <div className="contact-title">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        className="contact-title"
+      >
         <h1>Get In Touch</h1>
       </div>
       <div className="contact-section">
@@ -61,9 +66,21 @@ function ContactUs() {
           className="contact-right"
         >
           <label htmlFor="">Your Name</label>
-          <input type="text" placeholder="Enter your name" name="name" id="" />
+          <input
+            className="contact-input"
+            type="text"
+            placeholder="Enter your name"
+            name="name"
+            id=""
+          />
           <label htmlFor="">Your Email</label>
-          <input type="email" placeholder="Enter your email" name="" id="" />
+          <input
+            type="email"
+            placeholder="Enter your email"
+            name=""
+            id=""
+            className="contact-email"
+          />
           <label htmlFor="">Write your message here</label>
           <textarea
             name="message"

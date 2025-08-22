@@ -4,7 +4,9 @@ function Commonsection({ title }) {
   return (
     <section className="common_section">
       <Container className="text-center">
-        <h1>{title}</h1>
+        <h1 data-aos="fade-left" data-aos-duration="800">
+          {title}
+        </h1>
       </Container>
     </section>
   );

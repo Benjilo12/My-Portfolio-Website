@@ -27,6 +27,7 @@
   color: white;
   font-size: 18px;
   cursor: pointer;
+  display: flex;
 }
 
 .nav-connect-btn {

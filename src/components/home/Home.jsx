@@ -12,6 +12,7 @@ import { Pagination, Navigation } from "swiper/modules";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 import Helmet from "../helmet/Helmet";
+import TechnologyStack from "../techstack/TechnologyStack";
 
 function Home() {
   const [typeEffect] = useTypewriter({
@@ -30,8 +31,8 @@ function Home() {
               {typeEffect}
               <Cursor />,
             </span>{" "}
-            a Frontend Developer based in Ghana with 3 years of experience in
-            Frontend development.
+            a Mern Stack Developer based in Ghana with 3 years + of experience
+            in Mern stack development.
           </h2>
           <div className="hero-action">
             <div className="hero-connect">
@@ -47,7 +48,12 @@ function Home() {
           </div>
         </div>
         <div className="about">
-          <div data-aos="fade-up" className="about-title">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            className="about-title"
+          >
             <h1>About Me</h1>
           </div>
           <div className="about-sections">
@@ -204,7 +210,9 @@ function Home() {
             ))}
           </Swiper>
         </div>
+
         {/* Contact Us */}
+        <TechnologyStack />
         <ContactUs />
       </Helmet>
     </>
